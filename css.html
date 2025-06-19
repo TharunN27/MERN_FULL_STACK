@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .c {
+            display: flex;
+            flex-direction: row;
+            background-color: #fff;
+            border: 2px solid #444;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            margin-bottom: 25px;
+            width: 850px;
+        }
+
+        .c img {
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .info h3 {
+            margin-top: 0;
+            font-size: 22px;
+            color: #222;
+        }
+
+        .info .genre {
+            font-weight: bold;
+            color: #c0392b;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 15px;
+            color: #444;
+            margin: 6px 0;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .floating-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 250px;
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+        }
+
+        .floating-box h4 {
+            margin: 0 0 8px;
+            font-size: 16px;
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="c">
+        <img src="https://th.bing.com/th/id/OIP.Yys7u5ET8T2TtoSuCznNzwHaDt?w=338&h=175&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Get Out"/>
+        <div class="info">
+            <h3>Get Out (2017)</h3>
+            <p class="genre">Genre: Psychological Thriller, Horror</p>
+            <p><span class="label">Director:</span> Jordan Peele</p>
+            <p><span class="label">Release Year:</span> 2017</p>
+            <p><span class="label">IMDb Rating:</span> 7.7/10</p>
+            <p><span class="label">Plot:</span> A young Black man uncovers disturbing secrets when he visits his white girlfriend’s family estate.</p>
+            <p><span class="label">Notable:</span> Social commentary, suspenseful tone, Academy Award-winning screenplay.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://th.bing.com/th/id/OIP.RbvsiuoskRaf_vnuiJ0nKQHaLH?w=116&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Hereditary"/>
+        <div class="info">
+            <h3>Hereditary (2018)</h3>
+            <p class="genre">Genre: Supernatural Horror, Drama</p>
+            <p><span class="label">Director:</span> Ari Aster</p>
+            <p><span class="label">Release Year:</span> 2018</p>
+            <p><span class="label">IMDb Rating:</span> 7.3/10</p>
+            <p><span class="label">Plot:</span> After the death of their secretive grandmother, a family is haunted by a sinister presence.</p>
+            <p><span class="label">Notable:</span> Grief-centered horror, shocking twists, powerhouse performance by Toni Collette.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://th.bing.com/th/id/OIP.TI3A_-8W553YSRErhG--rwHaKe?w=127&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="The Conjuring 2"/>
+        <div class="info">
+            <h3>The Conjuring 2 (2016)</h3>
+            <p class="genre">Genre: Paranormal, Horror</p>
+            <p><span class="label">Director:</span> James Wan</p>
+            <p><span class="label">Release Year:</span> 2016</p>
+            <p><span class="label">IMDb Rating:</span> 7.3/10</p>
+            <p><span class="label">Plot:</span> Paranormal investigators Ed and Lorraine Warren help a family in England haunted by evil forces.</p>
+            <p><span class="label">Notable:</span> Based on the Enfield poltergeist case, strong character focus, creepy nun apparition.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://th.bing.com/th/id/OIP.fiLKcVtdtbQaAKuxFHxbJAHaLc?w=201&h=310&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Nightmare on Elm Street"/>
+        <div class="info">
+            <h3>A Nightmare on Elm Street (1984)</h3>
+            <p class="genre">Genre: Slasher, Supernatural</p>
+            <p><span class="label">Director:</span> Wes Craven</p>
+            <p><span class="label">Release Year:</span> 1984</p>
+            <p><span class="label">IMDb Rating:</span> 7.4/10</p>
+            <p><span class="label">Plot:</span> Teens are terrorized by Freddy Krueger, a killer who hunts them in their dreams.</p>
+            <p><span class="label">Notable:</span> Introduced Freddy, iconic kills, blended dream and reality.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://th.bing.com/th/id/OIP.WHTPV9sSLT-4r7R3kzSukAHaFX?w=243&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="The Ring"/>
+        <div class="info">
+            <h3>The Ring (2002)</h3>
+            <p class="genre">Genre: Supernatural Mystery, Horror</p>
+            <p><span class="label">Director:</span> Gore Verbinski</p>
+            <p><span class="label">Release Year:</span> 2002</p>
+            <p><span class="label">IMDb Rating:</span> 7.1/10</p>
+            <p><span class="label">Plot:</span> A journalist investigates a cursed videotape that causes viewers to die seven days after watching it.</p>
+            <p><span class="label">Notable:</span> American remake of "Ringu," eerie visuals, iconic well scene.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://th.bing.com/th/id/OIP.U3wREVKd5fgY4EbsajOgYwHaEK?w=286&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="The Witch"/>
+        <div class="info">
+            <h3>The Witch (2015)</h3>
+            <p class="genre">Genre: Folk Horror, Period Drama</p>
+            <p><span class="label">Director:</span> Robert Eggers</p>
+            <p><span class="label">Release Year:</span> 2015</p>
+            <p><span class="label">IMDb Rating:</span> 6.9/10</p>
+            <p><span class="label">Plot:</span> In 1630s New England, a Puritan family faces sinister forces in the woods beyond their farm.</p>
+            <p><span class="label">Notable:</span> Historical accuracy, atmospheric dread, breakout for Anya Taylor-Joy.</p>
+        </div>
+    </div>
+
+    <!-- Floating Tip Box -->
+    <div class="floating-box">
+        <h4>👻 Horror Tip</h4>
+        <p>Lights off? Just make sure no one's behind you... 😨</p>
+    </div>
+
+</body>
+</html>
